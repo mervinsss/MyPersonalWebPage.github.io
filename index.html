@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add any additional stylesheets or libraries as needed -->
+</head>
+<body>
+    <header>
+        <h2> </h2>
+        <nav class="navigation">
+            <a href="#home" onclick="scrollToSection('home')">Home</a>
+            <a href="#about" onclick="scrollToSection('about')">About</a>
+            <a href="#education" onclick="scrollToSection('education')">Education</a>
+            <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+            <a href="#projects" onclick="scrollToSection('projects')">Projects</a>
+            <a href="#work-experience" onclick="scrollToSection('work-experience')">Work Experience</a>
+            <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+        </nav>
+        <a href="#contact" class="btn-talk">Let's Talk</a>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Mervin C. Bagagñan</span></h2>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <h4>Laguna State Polytechnic University San Pablo City Campus</h4>
+            <h5>College of Computer Studies</h5>
+            <div class="btn-group">
+                <!-- Add any buttons or links specific to the home section -->
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>My name is Mervin C. Bagagñan, 20 years old, from Purok 6 Brgy. Alibungbungan Nagcarlan, Laguna. Born on August 12, 2003. I am the oldest children of Mr. Joven Bagagñan and Mrs. Meriam Bagagñan. And I am currently in my second year of college, taking a Bachelor of Science in Information Technology at Laguna State Polytechnic University - San Pablo City Campus. And I always love eating and most especially listening to musics. Also the current Public Information Officer of Supreme Student Council in LSPU San Pablo City Campus.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="content">
+            <h2>My Education</h2>
+            <ul>
+                <li>Crisanto Guysayko Memorial Elementary School (Graduated class of 2016)</li>
+                <li>Talangan Integrated National High School (Grade 10 Moving Up Batch 2019-2020)</li>
+                <li>Laguna University Senior High School (Graduated Batch 2021-2022)</li>
+                <li>And currently 2nd Year in Laguna State Polytechnic University San Pablo City Campus</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="content">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Proficiency in Operating Systems</li>
+                <li>Editing videos and pictures</li>
+                <li>Leadership</li>
+                <li>Basic knowledge in Computer Hardware and Software</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="content">
+            <h2></h2>
+            <div class="project">
+                <h3>Pizza Ordering System (JAVA)</h3>
+                <p>Pizza Ordering System provides a seamless and user-friendly experience for ordering pizzas online. It simplifies the process for both customers and administrators, ensuring smooth transactions and timely deliveries.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aEXfhDV9ftU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="work-experience">
+        <div class="content">
+            <h2>Crew of Dace's Samgyupsal</h2>
+            <div class="job">
+            </div>
+            <!-- Add more work experience sections as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out! You can contact me through the form below:</p>
+            <a href="https://www.facebook.com/mervincastillobagagnan" target="_blank">
+                <img src="fblogo.png" alt="Facebook Logo" width="30" height="30"> 
+                <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/mervss.s/?hl=en" target="_blank">
+                <img src="instagramlogo.png" alt="Instagram Logo" width="30" height="30">
+                <span>Instagram</span>
+            </a>
+           <br>
+            <label for="email">Email: mervin.bagagnan@gmail.com</label>
+            <br>
+            <label for="contactnumber">Contact Number: 09989271776</label>
+
+            
+    </section>
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
